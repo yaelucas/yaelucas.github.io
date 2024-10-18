@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Protest+Strike&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Protest+Strike&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header, nav, main, footer{ 
+        /*width: 960px;*/
+        width: 100%;
+        padding: 20px; 
+        margin-left:auto;  
+        margin-right: auto;
+     font-family:  "Josefin Sans", sans-serif;
+    } 
+    header{ 
+         /*width: 960px;*/ 
+         height: 150px;  
+         background-color:#855E6E; 
+         /*color: #F7F1E1;*/ 
+         color: #F7F1E1; 
+    } 
+    nav{ 
+        height: 100px;
+        background-color:#FFDBD7; 
+        text-align: center; 
+    } 
+    main{ 
+        height: auto;
+        background-color:#855E6E; 
+        padding: 80px;
+    } 
+    footer{ 
+        background-color:#F7F1E1; 
+         color:#855E6E; ; 
+        color: #855E6E; 
+    } 
+        section{ 
+             /*width: 650px;*/
+            width: 80%;
+             background-color:#F7F1E1; 
+             color:#855E6E; 
+             margin-bottom: 20px; 
+             margin-top: 20px; 
+             margin-left: auto; 
+             margin-right: auto; 
+             padding: 50px; 
+} 
+        h2, h3, p{ 
+            margin-bottom: 15px; 
+        } 
+
+h1 {
+    font-family:"Protest Strike",sans-serif; }
+    
+h2{ margin-bottom: auto;
+    font-family: "Roboto", sans-serif;
+    font-size: 30px;
+        
+    
+        
+    }
+
+        h1, h5 { 
+            text-align: center; 
+        } 
+        ul { 
+            padding-left: 20px; 
+        }              
+        nav ul li{ 
+            width: 10%; 
+            background-color:#F7F1E1; 
+            color: black; 
+            margin-bottom: 10px; 
+            padding: 10px; 
+            text-align: center; 
+            border-width: 2px; 
+            border-color:#FFDBD7; 
+            border-style: solid; 
+            display: inline-block; 
+            
+        } 
+        nav ul li a { 
+            color:#CE7095; 
+            text-decoration: none; 
+        } 
+        nav ul li:hover { 
+            background-color:#CE7095; 
+            color: #855E6E; 
+            width: 90px; 
+        } 
+            nav ul li a:hover{ 
+                color: #855E6E; 
+                font-weight: bold; 
+                font-size: 20px; 
+} 
+                    main nav{ 
+                        width: 850px; 
+                        color: #CE7095; 
+                        background-color: transparent; 
+                        text-align: center; 
+} 
+            img{ 
+                width: 400px; 
+                height: auto; 
+                display: block; 
+                margin-left: auto; 
+                margin-right: auto; 
+                margin-top: 20px; 
+            } 
+            #golden{ 
+                width: 400px; 
+                float: left; 
+                margin-left: 20px; 
+} 
+        #gos{ 
+            width: 300px; 
+            float: right; 
+            margin-right: 20px; 
+        } 
+        #toy{ 
+            width: 100px; 
+        } 
+        #seccion_4{ 
+            background-image: url(../CSS/Imagenes/fred.jpg); 
+            background-repeat: no-repeat; 
+            background-size: 100%; 
+}
+
+#filtros_imagen{
+    text-align:center;
+}
+#filtros_imagen img{
+    
+    display: inline-block;
+    width: 30%;
+    height: auto;
+    padding: 10px;
+    
+}
+#filtros_imagen{
+    text-align: center;
+    
+}
+#filtros_imagen img{
+    display: inline-block;
+    width: 30%;
+    height: auto;
+    padding: 10px;
+}
+
+#img1{
+    filter: brightness(200%);
+}
+#img2{
+    filter: contrast(50%);
+}
+#img3{
+    filter: grayscale (100%);
+}
+#img4{
+    filter: invert(100%);
+}
+#img5{
+    filter: opacity(30%);
+}
+#img6{
+    filter: sepia(100%);
+}
+#img7{
+    filter: saturate(150%);
+}
+#img8{
+    filter: blur(10%);
+}
+#img9{
+filter: drop-shadow(10% 10% 20% white);
+}
+#img10{
+    filter: contrast(150%);
+    filter: blur(2px);
+}
+#img11{
+    filter: hue-rotate(30deg);
+}
+
+iframe, audio{
+    display: block;
+ margin: 0 auto;
+}

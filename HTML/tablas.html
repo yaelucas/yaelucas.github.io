@@ -1,0 +1,390 @@
+<html>
+    <body>
+   <head>
+    <tittle>Tablas en html</tittle>
+       <link rel="stylesheet" href="../CSS/style.page.css" type="text/css">
+       <style type="text/css">
+           table{
+               width: 100%;
+               text-align: center;
+               margin: 0 auto;
+               color: black;
+               border-spacing: 10px;
+               
+           }
+           #tabla_uno th{
+               background-color:#855e6e;
+               
+           }
+           #tabla_uno td{
+               background-color:#ffb2c1;
+               color: #855e6e;
+               text-align: left;
+               border-radius: 5px;
+               border-style: solid;
+               border-color: crimson;
+               border-top-width: 3px;
+               border-radius: 5px;
+               margin: 10px;
+               
+           }
+           /*#tabla_2{
+               color: darkgray;
+           }
+           #tabla_2 td{
+               color: darkblue;
+               height: 50px;
+               padding: 20px;
+           }*/
+           .celda_centrada{
+               text-align: center;
+               padding: 0px;
+               background-color: darkgray;
+           }
+           .tabla_dos{
+               text-align: center;
+               width: 600px;
+               border-collapse: collapse;
+               border-color: aqua;
+               color: darkgray;
+               border-style: dotted;
+               margin: 0 auto;
+               
+           }
+           .tabla_dos td, .tabla_dos th{
+               width: 150px;
+            border-color: saddlebrown;
+               color: darkblue;
+               padding:10px;
+               border-style: dashed;
+    
+           }
+           .tabla_dos th{
+               background-color: #855e6e;
+           }
+           .tabla_dos td{
+               background-color: #ffb2c1;
+           }
+           #celda_centrada{
+               text-align: center;
+               padding: 0px;
+               background-color: darkgray;}
+               
+               #tabla_zebra{
+                   width: 100%;
+                   border-collapse: collapse;
+               }
+           #tabla_zebra tbody tr:nth-child(even){
+               background-color: gold;
+           }
+           
+           #tabla_zebra tbody tr:nth-child(odd){
+               background-color: darkorange;}
+           
+           #tabla_zebra thead tr{
+               background-color: orangered;
+           }
+           
+           .tabla_hover{
+               width: 80%;
+               margin: 0 auto;
+               border-collapse: collapse;
+             
+
+               
+           }
+           .tabla_hover tr:hover{
+               background-color: tan;
+               color: blueviolet;
+           }
+           .tabla_hover th{
+               background-color: aquamarine;
+               padding: 10px;
+                border-radius: 100px;
+           }
+           }
+           .tabla_hover tbody tr:hover{
+               background-color: aquamarine;
+           }
+           .tabla_hover tbody th{
+               background-color: aqua;
+           }
+           .tabla_hover tbody td{
+               background-color: aquamarine;
+           }
+           
+       </style>
+      </head>
+        <header>
+        <h1>TABLAS EN HTML</h1>
+        </header>
+    <nav>
+        <ul>
+        <li><a href="/Index.html">Inicio</a></li>
+        <li><a href="../HTML/Lista.html">Listas</a></li>
+        <li><a href="..//HTML/Enlaces%20finales.html">Enlaces</a></li>
+        <li><a href="..//HTML/style.page.html">Imagenes</a></li>
+        <li><a href="..//HTML/audios.html">Audio</a></li>
+        <li><a href="..//HTML/video.html">Video</a></li>
+        <li><a href="..//HTML/tablas.html">Tablas</a></li>
+        <li><a href="..//HTML/formularios.html">Formulario</a></li>
+        </ul>
+        
+    </nav>
+    <main>
+    <section style="overflow-x: auto">
+        <h2>Tablas</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam id velit turpis. Praesent eget nisl enim. Aenean porttitor vehicula quam in ullamcorper. Proin lobortis iaculis aliquam. Maecenas hendrerit efficitur sodales. Duis sit amet dui mauris. Quisque ornare neque ut libero mollis, ut ultricies mi euismod. Aliquam eu cursus risus, sed porta velit. In hac habitasse platea dictumst. Suspendisse eget odio aliquet, pharetra ex sed, ornare mi. Vestibulum ac lobortis ipsum, non posuere ante. Mauris mi purus, auctor a congue sit amet, feugiat nec sapien. Cras laoreet magna in condimentum pulvinar. Vestibulum imperdiet ultricies mattis. In hac habitasse platea dictumst.</p> 
+        <table border="1" id="tabla_uno">
+            <thead>
+                <tr>
+                    
+                <th>Matricula</th>
+                <th>Nombre</th>
+                <th>Apellido Paterno</th>
+                <th>Apellido Materno</th>
+                <th>Colegio</th>
+                
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                
+                    <td>202125077</td>
+                    <td>Yael </td>
+                    <td>Amador</td>
+                    <td>Cornelio</td>
+                    <td>Arquitectura</td>
+                
+                </tr>
+                <tr>
+                     <td>202124088</td>
+                     <td>Maria</td>
+                     <td>Cornelio</td>
+                     <td>Perez</td>
+                     <td>Arquitectura</td>
+                </tr>
+                <tr>
+                     <td>202124099</td>
+                     <td>Gabriel</td>
+                     <td>Amador</td>
+                     <td>Osorio</td>
+                     <td>Arquitectura</td>
+                </tr>
+                <tr>
+                     <td>202027898</td>
+                     <td>Eknaen</td>
+                     <td>Diaz</td>
+                     <td>Perez</td>
+                     <td>Arquitectura</td>
+                </tr>
+                <tr>
+                     <td>202089289</td>
+                     <td>Diana</td>
+                     <td>Torres</td>
+                     <td>Fabriano</td>
+                     <td>Arquitectura</td>
+                </tr>
+            </tbody>
+            <tfoot></tfoot>
+        </table>
+        </section>
+        <section style="overflow-x: auto">
+        <h2>Tablas</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam id velit turpis. Praesent eget nisl enim. Aenean porttitor vehicula quam in ullamcorper. Proin lobortis iaculis aliquam. Maecenas hendrerit efficitur sodales. Duis sit amet dui mauris. Quisque ornare neque ut libero mollis, ut ultricies mi euismod. Aliquam eu cursus risus, sed porta velit. In hac habitasse platea dictumst. Suspendisse eget odio aliquet, pharetra ex sed, ornare mi. Vestibulum ac lobortis ipsum, non posuere ante. Mauris mi purus, auctor a congue sit amet, feugiat nec sapien. Cras laoreet magna in condimentum pulvinar. Vestibulum imperdiet ultricies mattis. In hac habitasse platea dictumst.</p>
+             <table id="Tabla_2" class="tabla_dos">
+            <thead>
+                <tr>
+                    <th style="width: 200px;">Nombre</th>
+                    <th style="width: 150px;">Edad</th>
+                    <th style="width: 200px;" colspan="2">Telefono</th>
+                    <th style="width: 150px;">Cooperacion</th>
+                   
+                </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>Yael Amador Cornelio</td>
+                <td style="text-align:center; padding:0px;">15</td>
+                <td>2213473359</td>
+                <td>227563656</td>
+                <td class="celda_centrada">300</td>
+            </tr> 
+            <tr>
+                <td>Frida Victoria Valera</td>
+                <td style="text-align:center; padding:0px;">15</td>
+                <td>2213477859</td>
+                <td>227563656</td>
+                <td style="text-align:center; padding:0px;">500</td>
+            </tr>
+                <tr>
+                <td>Paola Salmeron Perez</td>
+                <td style="text-align:center; padding:0px;">14</td>
+                <td>2173477859</td>
+                    <td>227563656</td>
+                <td style="text-align:center; padding:0px;">150</td>
+            </tr>
+                <tr>
+                <td>Osiel Guitierrez Juarez</td>
+                <td style="text-align:center; padding:0px;">13</td>
+                <td>2214567181</td>
+                    <td>227563656</td>
+                <td style="text-align:center; padding:0px;">100</td>
+            </tr>
+                <tr>
+                <td>Fernando Lopez Lopez</td>
+                <td style="text-align:center; padding:0px;">14</td>
+                <td>2214563481</td>
+                    <td>227563656</td>
+                <td style="text-align:center; padding:0px;">100</td>
+            </tr>
+                
+                
+                
+                
+            </tbody>
+            <tfoot>
+                 <tr>
+                     <td></td>
+                     <td></td>
+                     <td></td>
+                     <td>Total</td>
+                     <td class="celda_centrada" style="background-color: darkgoldenrod; color: aliceblue;">480</td>
+                    
+                </tr>
+                 
+                 </tfoot>
+        </table>
+            </section >
+       
+        <section style="overflow-x: auto">
+        <h2>Tablas</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam id velit turpis. Praesent eget nisl enim. Aenean porttitor vehicula quam in ullamcorper. Proin lobortis iaculis aliquam. Maecenas hendrerit efficitur sodales. Duis sit amet dui mauris. Quisque ornare neque ut libero mollis, ut ultricies mi euismod. Aliquam eu cursus risus, sed porta velit. In hac habitasse platea dictumst. Suspendisse eget odio aliquet, pharetra ex sed, ornare mi. Vestibulum ac lobortis ipsum, non posuere ante. Mauris mi purus, auctor a congue sit amet, feugiat nec sapien. Cras laoreet magna in condimentum pulvinar. Vestibulum imperdiet ultricies mattis. In hac habitasse platea dictumst.</p>
+            <table id="tabla_zebra">
+                <thead>
+                
+                            <th>Nombre</th>
+                            <th>Edad</th>
+                            <th>Deporte</th>
+                            <th>Telefono</th>
+                            <th>Email</th>
+                            
+                    <tr></tr>
+                    
+                </thead>
+                <tbody>
+                    <tr>
+                            <th>Yael Amador Cornelio</th>
+                            <th>21</th>
+                            <th>Beisbol</th>
+                            <th>2213473359</th>
+                            <th>yaelucas@gmail.com</th>
+                        </tr>
+                    <tr>
+                            <th>Solis Lara Sola</th>
+                            <th>22</th>
+                            <th>Beisbol</th>
+                            <th>223354454</th>
+                            <th>solissola@gmail.com</th>
+                     </tr>
+                    <tr>
+                            <th>Soto Eduardo Rojas</th>
+                            <th>19</th>
+                            <th>Futbol</th>
+                            <th>2235678978</th>
+                            <th>Sotototo@gmail.com</th>
+                     </tr>
+                    <tr>
+                            <th>Fernando Gabriel Perez</th>
+                            <th>20</th>
+                            <th>Tenis</th>
+                            <th>2213567898</th>
+                            <th>Gabpriel@gmail.com</th>
+                     </tr>
+                    <tr>
+                            <th>Gabriela Teran Lurdez</th>
+                            <th>19</th>
+                            <th>Natacion</th>
+                            <th>2214567890</th>
+                            <th>Emoxita@gmail.com</th>
+                     </tr>
+                    <tr>
+                            <th>Osiel Gutierrez Lopez</th>
+                            <th>21</th>
+                            <th>Tenis</th>
+                            <th>2232346789</th>
+                            <th>Osielni@gmail.com</th>
+                     </tr>
+                
+                </tbody>
+                <tfood></tfood>
+            </table>
+            </section>
+        <section style="overflow-x: auto">
+        <h2>Tablas</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam id velit turpis. Praesent eget nisl enim. Aenean porttitor vehicula quam in ullamcorper. Proin lobortis iaculis aliquam. Maecenas hendrerit efficitur sodales. Duis sit amet dui mauris. Quisque ornare neque ut libero mollis, ut ultricies mi euismod. Aliquam eu cursus risus, sed porta velit. In hac habitasse platea dictumst. Suspendisse eget odio aliquet, pharetra ex sed, ornare mi. Vestibulum ac lobortis ipsum, non posuere ante. Mauris mi purus, auctor a congue sit amet, feugiat nec sapien. Cras laoreet magna in condimentum pulvinar. Vestibulum imperdiet ultricies mattis. In hac habitasse platea dictumst.</p>
+            <table id="" class="tabla_hover">
+           <thead>
+                
+                            <th>Nombre</th>
+                            <th>Edad</th>
+                            <th>Deporte</th>
+                            <th>Telefono</th>
+                            <th>Email</th>
+                            
+                    <tr></tr>
+                    
+                </thead>
+                <tbody>
+                    <tr>
+                            <th>Yael Amador Cornelio</th>
+                            <th>21</th>
+                            <th>Beisbol</th>
+                            <th>2213473359</th>
+                            <th>yaelucas@gmail.com</th>
+                        </tr>
+                    <tr>
+                            <th>Solis Lara Sola</th>
+                            <th>22</th>
+                            <th>Beisbol</th>
+                            <th>223354454</th>
+                            <th>solissola@gmail.com</th>
+                     </tr>
+                    <tr>
+                            <th>Soto Eduardo Rojas</th>
+                            <th>19</th>
+                            <th>Futbol</th>
+                            <th>2235678978</th>
+                            <th>Sotototo@gmail.com</th>
+                     </tr>
+                    <tr>
+                            <th>Fernando Gabriel Perez</th>
+                            <th>20</th>
+                            <th>Tenis</th>
+                            <th>2213567898</th>
+                            <th>Gabpriel@gmail.com</th>
+                     </tr>
+                    <tr>
+                            <th>Gabriela Teran Lurdez</th>
+                            <th>19</th>
+                            <th>Natacion</th>
+                            <th>2214567890</th>
+                            <th>Emoxita@gmail.com</th>
+                     </tr>
+                    <tr>
+                            <th>Osiel Gutierrez Lopez</th>
+                            <th>21</th>
+                            <th>Tenis</th>
+                            <th>2232346789</th>
+                            <th>Osielni@gmail.com</th>
+                     </tr> 
+					</tbody>
+             </table>
+			
+            </section>
+        
+    
+    </main>
+    <footer>Elaborado por Yael Amador Cornelio</footer>
+    </body>
+    </html>
